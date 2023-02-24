@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.media-scroller {
+  --_spacer: 1rem;
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+
+  padding: 0 var(--_spacer) var(--_spacer);
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.media-scroller--with-groups {
+  grid-auto-columns: 80%;
+}
+
+.media-group {
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+}
+
+.media-element {
+  display: grid;
+  grid-template-rows: min-content;
+  gap: var(--_spacer);
+  padding: var(--_spacer);
+  background: #444444;
+  border: 2px solid #DA0037;
+  box-shadow: 5px;
+}
+
+.media-element > img {
+  inline-size: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  box-shadow: 2px 5px #DA0037;
+  cursor: pointer;
+}
+
+.media-element > video {
+  inline-size: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  box-shadow: 2px 5px #DA0037;
+  cursor: pointer;
+}
+
+.media-element .title{
+  padding-top: 1rem;
+  margin: 0;
+  font-size: 25px;
+  color: #EDEDED;
+  font-family: 'Comic Neue', cursive;
+}
+
+.media-element .description, .software{
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer);
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+/* general styling */
+
+body{
+  background: #171717;
+}
+
+
+.container {
+  inline-size: min(100% - 4rem, 70rem);
+  margin-inline: auto;
+}
+
+.flow {
+  display: grid;
+  gap: 1rem;
+}
+
+.page-header {
+  padding: 2rem;
+  margin-block-end: 1rem;
+  background: #DA0037;
+  color: #EDEDED;
+  box-shadow: 5px 10px #EDEDED;
+  font-family: 'Combo', cursive;
+}
+
+.page-title {
+  font-size: 5rem;
+  color: #EDEDED;
+  margin: 53.6px 53.6px 0 0;
+}
+
+.my-name {
+  font-size: 4rem;
+  color: #EDEDED;
+  margin: 0;
+}
+
+.page-subtitle {
+  font-size: 2rem;
+  color: #EDEDED;
+  margin: 0;
+}
+
+.section-title {
+  padding-inline-start: 1em;
+  margin-block: 1rem;
+  color: #EDEDED;
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn{
+  color: #171717;
+  font-weight: bold;
+}
+
+.footer-link{
+  color: #171717;
+  font-weight: bold;
+}
+
+footer{
+  text-align: center;
+  margin-block-end: 1rem;
+  background: #DA0037;
+  color: #EDEDED;
+  padding: 2rem;
+  box-shadow: 5px 10px #EDEDED;
+  font-family: 'Combo', cursive;
+  font-weight: bold;
+}
+
+
+
+/************* lightbox styles *********************/
+
+#lightbox {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+  display: none;
+}
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img{
+  max-width: 90%;
+  max-height: 80%;
+  padding; 4px;
+  background-color: #444444;
+  border: 4px solid #EDEDED;
+}

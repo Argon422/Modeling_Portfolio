@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'martelextrabold';
+    src: url('martel-extrabold-webfont.eot');
+    src: url('martel-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('martel-extrabold-webfont.woff2') format('woff2'),
+         url('martel-extrabold-webfont.woff') format('woff'),
+         url('martel-extrabold-webfont.ttf') format('truetype'),
+         url('martel-extrabold-webfont.svg#martelextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

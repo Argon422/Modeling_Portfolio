@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'martelheavy';
+    src: url('martel-heavy-webfont.eot');
+    src: url('martel-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('martel-heavy-webfont.woff2') format('woff2'),
+         url('martel-heavy-webfont.woff') format('woff'),
+         url('martel-heavy-webfont.ttf') format('truetype'),
+         url('martel-heavy-webfont.svg#martelheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

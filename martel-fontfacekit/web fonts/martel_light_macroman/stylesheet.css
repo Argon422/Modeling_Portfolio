@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'martellight';
+    src: url('martel-light-webfont.eot');
+    src: url('martel-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('martel-light-webfont.woff2') format('woff2'),
+         url('martel-light-webfont.woff') format('woff'),
+         url('martel-light-webfont.ttf') format('truetype'),
+         url('martel-light-webfont.svg#martellight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
