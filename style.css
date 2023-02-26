@@ -8,7 +8,7 @@ body {
   background-image:url(backdrop.jpg)
 }
 
-.wrapper {
+.container-fluid text-center {
   position: relative;
   max-width: 1200px;
   margin: 0, auto;
