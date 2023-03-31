@@ -3,9 +3,10 @@ html {
 }
 
 body {
-  background-color: #92C0D3;
+  background-color: #6B8688;
   margin: 0 auto;
-  background-image:url(IMG_4413.GIF)
+  background-image:url(IMG_4413.GIF);
+  background-repeat: no-repeat;
 }
 
 .container text-center {
