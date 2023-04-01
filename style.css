@@ -4,16 +4,17 @@ html {
 
 body {
   background-color: #6B8688;
-  margin: 0;
+  margin: 0;  
+  background-image:url(IMG_4413.GIF);
+  background-repeat: no-repeat;
+  background-position: center;      /* center the image */
+  width: 100%;
+  
 }
 
 .container text-center {
   position: relative;
   margin: 0, auto;
-  background-image:url(IMG_4413.GIF);
-  background-repeat: no-repeat;
-  background-position: center;      /* center the image */
-  width: 100%;
 }
 
 .intro-text {
