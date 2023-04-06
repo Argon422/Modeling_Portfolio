@@ -4,7 +4,7 @@ html {
   background-size: cover;
   height: 100%;
   overflow: hidden;
-  background-image:url(IMG_4413.GIF) no-repeat center center fixed;
+  background-image:url(IMG_4413.GIF);
 }
 
 .container text-center {
