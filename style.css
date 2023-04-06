@@ -1,8 +1,5 @@
 html {
   font-size: 62.5%;
-}
-
-body {
   background-color: #6B8688;
   margin: 0;  
   background-image:url(IMG_4413.GIF);
@@ -14,8 +11,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
-  
 }
 
 .container text-center {
