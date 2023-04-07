@@ -6,7 +6,7 @@ html {
   overflow: hidden;
   background-image:url(IMG_4413.GIF);
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: space;
 }
 
 .container text-center {
