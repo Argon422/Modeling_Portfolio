@@ -7,6 +7,7 @@ html {
   background-image:url(IMG_4413.GIF);
   background-position: center center;
   background-repeat: repeat-x;
+  overflow-y:scroll;
 }
 
 .container text-center {
